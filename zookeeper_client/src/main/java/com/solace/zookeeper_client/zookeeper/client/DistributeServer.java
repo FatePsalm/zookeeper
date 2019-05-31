@@ -19,7 +19,6 @@ public class DistributeServer {
 		server.getConnect();
 		
 		// 2 注册节点
-		System.out.println("******************:"+args[0]);
 		server.regist(args[0]);
 		
 		// 3 业务逻辑处理
